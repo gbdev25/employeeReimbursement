@@ -1,0 +1,57 @@
+
+
+body{
+  background-color: rgb(240, 234, 214);
+
+}
+
+#login{
+    text-align: center;
+    
+}
+#header{
+    text-align: center;
+    
+    
+}
+
+/*template for horizontal menu placement (work in progress)*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(7, 163, 101);
+}
+
+li {
+  float: left;
+}
+
+li  {
+  display: block;
+  color: rgb(	0, 66, 37);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li:hover {
+  background-color: rgb(255, 255, 255);
+}
+.active {
+  background-color: #04AA6D;
+}
+#logout{
+
+  float: right;
+}
+li {
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+  float: right;
+}
